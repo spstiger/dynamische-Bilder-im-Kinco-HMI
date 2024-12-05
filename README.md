@@ -16,7 +16,7 @@ Es ist möglich, dieses Bild dynamisch über FTP über das HMI auf dem angeschlo
 
 *Das Bild "picture.jpg" wurde direkt auf dem USB-Stick über FTP ersetzt und aktualisiert*
 
-## Benötige Software und Zubehör
+## Benötigte Software und Zubehör
 
 Entwicklungsumgebung für Kinco HMI [Kinco DTools](https://www.spstiger.de/moorl-dc-v2/85089e4d00614b9fb80f0dfebf415ee0/read?path=Kinco%20DTools/Kinco%20DTools%20V4.3.0.3(Build240415).zip) Vers. 4.3 oder höher
 
@@ -31,7 +31,7 @@ In diesem Beispiel könnt ihr sehen, wie ihr Bilder dynamisch im HMI ersetzt, oh
 Dieses Beispielprogramm für die Kinco GT070HE HMI zeigt, wie ihr Bilder dynamisch ändert:
 
 * **Bitlampe** als Grafikanzeige 
-  *(Es ist aber jedes andere Element zur Anzeige von Grafiken möglich, z.B. auch die Bitmapkomponente.)*
+  *(Es ist aber jedes andere Element zur Anzeige von Grafiken möglich, zum Beispiel die Bitmapkomponente für eine statische Grafik.)*
 * **Grafik mit verknüpfter Datei "picture.jpg" auf dem USB-Speicher des HMI in der Grafikbibliothek** für die Bildquelle
 * **Button** mit Umschalter auf Systemvariable LB9108 zur Aktualisierung des Bildes
   *(Die Aktualisierung kann auch automatisch mit einem Timer mit Einstellung "periodische Umschaltung" erfolgen)*
